@@ -1,7 +1,7 @@
 services:
   backend-dev:
     environment:
-      - MONGO_URI=mongodb+srv://bharathisaladi18_db_user:xiFEpsWFbx1MnZEm@hv-mongo-cluster.e9hkegp.mongodb.net/?retryWrites=true&w=majorityT56
+      - MONGO_URI=mongodb+srv://bharathisaladi18_db_user:<password>@hv-mongo-cluster.e9hkegp.mongodb.net/?retryWrites=true&w=majorityT56
     image: backend-dev
     build:
       context: ./backend/dev
@@ -11,7 +11,7 @@ services:
 
   backend-prod:
     environment:
-      - MONGO_URI=mongodb+srv://bharathisaladi18_db_user:xiFEpsWFbx1MnZEm@hv-mongo-cluster.e9hkegp.mongodb.net/?retryWrites=true&w=majority
+      - MONGO_URI=mongodb+srv://bharathisaladi18_db_user:<password?@hv-mongo-cluster.e9hkegp.mongodb.net/?retryWrites=true&w=majority
     image: backend-prod
     build:
       context: ./backend/prod
@@ -25,4 +25,5 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
+
     - "3000:3000"
