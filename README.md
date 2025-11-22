@@ -82,12 +82,45 @@ Deploying a multi-environment ticket management application on your local comput
   ## Application Deployment
 
 - Run the docker-compose file using docker compose up command.
+  
  
-      <img width="602" height="256" alt="image" src="https://github.com/user-attachments/assets/2ff36150-912d-4ad3-86b5-6099f5ebe2ab" />
+  <img width="602" height="256" alt="image" src="https://github.com/user-attachments/assets/2ff36150-912d-4ad3-86b5-6099f5ebe2ab" />
+  
 
 - Check if all the images are running in Docker Desktop.
+  
 
-      <img width="1606" height="561" alt="image" src="https://github.com/user-attachments/assets/451371f7-470f-4eec-afa8-a790ea594b36" />
+  <img width="1606" height="561" alt="image" src="https://github.com/user-attachments/assets/451371f7-470f-4eec-afa8-a790ea594b36" />
+
+
+ - The application should now be accessible at:
+  
+    Frontend:        http://localhost:3000/
+
+  <img width="602" height="216" alt="image" src="https://github.com/user-attachments/assets/5cf050b5-d6ee-4c52-be40-ac525c8075db" />
+
+  <img width="602" height="210" alt="image" src="https://github.com/user-attachments/assets/45c33676-487b-4101-aa0a-8ac49eec1192" />
+
+  <img width="1913" height="627" alt="image" src="https://github.com/user-attachments/assets/3b6bf34e-9d2b-439d-8c93-43b0a967b3a5" />
+
+
+
+  Dev Backend:     http://localhost:3001/
+
+  <img width="602" height="231" alt="image" src="https://github.com/user-attachments/assets/b53181e3-04f2-428c-afae-e11b936fade4" />
+
+    
+  Prod Backend:    http://localhost:3002/
+
+  <img width="602" height="244" alt="image" src="https://github.com/user-attachments/assets/e0e86018-3fc2-415e-9e27-3ab9d7eeed5e" />
+
+  - The tickets data entered can be viewed on Mongo DB Compass.
+
+    <img width="1693" height="702" alt="image" src="https://github.com/user-attachments/assets/f6d5ca2f-b25a-471e-8de5-98bd0db8b913" />
+
+    
+
+
   
 
 
